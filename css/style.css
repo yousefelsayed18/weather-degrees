@@ -1,0 +1,200 @@
+#findContery{
+    background-color: #1E202B;
+}
+#navbar-example{
+    background-color: #1E202B !important;
+    height: 120px;
+}
+.list-unstyled p{
+    font-size: 10px;
+    width: 100px;
+    background-color: aqua;
+}
+.list-unstyled i{
+    font-size: 50px;
+    color:blue;
+}
+
+.input-w{
+padding: 15px 40px 15px 15px;
+border-radius: 50px 50px 50px 50px;
+background-color: #1E202B;
+color: white;
+position: relative;
+
+}
+form{
+    background-color: transparent;
+}
+.form-button{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 12.7%;
+    border-radius: 50px 50px 50px 50px;
+    
+}
+#findContery{
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    position: relative;
+    
+}
+.span-1{
+    width: 120px;
+    height: 30px;
+}
+.lista{
+    color: white;
+}
+.lista:hover{
+    color: #049AD8;
+}
+.li-1{
+transition: 0.1s;
+/* width: 80px;
+height: 30px; */
+}
+
+.li-1:hover{
+    /* padding: 10px; */
+    border: 1px solid red;
+    border-radius: 25px 25px 25px 25px;
+    transition: 0.1s;
+}
+.li-1{
+padding:10px;
+transition: 0.1s;
+}
+
+.li-1:hover{
+    padding: 10px;
+    border: 1px solid #049AD8;
+    border-radius: 25px 25px 25px 25px;
+    transition: 0.1s;
+}
+.li-2{
+padding:10px;
+transition: 0.1s;
+}
+
+.li-2:hover{
+    padding: 10px;
+    border: 1px solid #049AD8;
+    border-radius: 25px 25px 25px 25px;
+    transition: 0.1s;
+}
+.li-3{
+padding:10px;
+transition: 0.1s;
+}
+
+.li-3:hover{
+    padding: 10px;
+    border: 1px solid #049AD8;
+    border-radius: 25px 25px 25px 25px;
+    transition: 0.1s;
+}
+.li-4{
+padding:10px;
+transition: 0.1s;
+}
+
+.li-4:hover{
+    padding: 10px;
+    border: 1px solid #049AD8;
+    border-radius: 25px 25px 25px 25px;
+    transition: 0.1s;
+}
+.li-5{
+padding:10px;
+transition: 0.1s;
+}
+
+.li-5:hover{
+    padding: 10px;
+    border: 1px solid #049AD8;
+    border-radius: 25px 25px 25px 25px;
+    transition: 0.1s;
+}
+.inner{
+    color: white;
+    background-color: #323544;
+}
+.in-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D303D;
+}
+.s1{
+    font-size: 30px;
+    padding: 15px;
+    padding-top: 20px;
+}
+ .h-1{
+    font-size: 70px;
+    padding: 30px;
+}
+.fa-moon{
+    font-size: 30px;
+    padding: 30px;
+}
+h5{
+    color: #049AD8;
+    font-size: 15px;
+    /* padding: 10px; */
+}
+#section-2{
+    background-color: #1E202B;
+}
+.in-div-2{
+
+    background-color: #222530;
+    
+}
+.in-div-3{
+
+    background-color: #2D303D;    
+}
+.inner-2{
+    color: white;
+    background-color: #262936;
+    
+}
+.inner-3{
+    color: white;
+    background-color: #323544;
+    
+}
+.fa-sun{
+    color: yellow;
+}
+.row{
+    bottom: 100px;
+}
+#last{
+background-color: #262936;
+height: 200px;
+}
+.form-button-2{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right:50%;
+    top: 133%;
+    border-radius: 50px 50px 50px 50px;
+    
+}
+.input-w-2{
+    padding: 15px 40px 15px 15px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #1E202B;
+    color: white;
+    position: relative;
+    width: 40%;
+    top: 50px;
+    right: 300px;
+    
+    }

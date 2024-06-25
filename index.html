@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav id="navbar-example" class="navbar navbar-expand-lg py-3 bg-white nav-z text-center" data-bs-spy="scroll"
+        data-bs-target="#navbar-example">
+        <div class="container">
+            <li class="list-unstyled fw-bold text-white d-flex"><a class="navbar-brand" href="#"><i
+                        class="fa-solid fa-cloud"></i><span class="text-white p-3">weather</span>
+                </a></li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 px-5">
+                    <li class="nav-item home lista li-1 ">
+                        <span class="span-1">Home</span>
+                    </li>
+                    <li class="nav-item  about lista li-2">
+                        <span>News</span>
+                    </li>
+                    <li class="nav-item services lista li-3">
+                        <span>Live cameras</span>
+                    </li>
+                    <li class="nav-item works lista li-4">
+                        <span>Photos</span>
+                    </li>
+
+                    <li class="nav-item contact lista li-5">
+                        <span>Contact</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="findContery" class=" d-flex justify-content-center align-items-center">
+        <form class="  w-100 d-flex justify-content-center align-items-center">
+            <input type="text" class=" w-75  input-w" placeholder="Finde Your Location" id="searchLocation">
+            <button class="btn btn-primary form-button">Find</button>
+
+        </form>
+    </section>
+    <section id="section-2" class="position-relative">
+        <div class="container ">
+            <div class="row gx-0 position-relative">
+                <div class="col-md-4">
+                    <div class="inner">
+                        <div class="in-div">
+                            <div> <span id="weekDay"></span>
+                            </div>
+                            <div> <span id="dateToday"></span></div>
+                        </div>
+                        <span id="cityToday" class="s1"></span>
+                        <h1 id="degreeToday" class="h-1"></h1>
+                        <img id="imgToday" class="icon" src="" alt="">
+                        <h5 id="todayCond">clear</h5>
+                        <div class="p-3">
+                            <i class="fa-solid fa-umbrella p-2 fs-5"></i> <span id="humToday" class="fs-6"></span>
+                            <i class="fa-solid fa-wind p-2 fs-5"></i>  <span class="fs-6" id="windSpeedToday"></span>
+                            <i class="fa-solid fa-compass p-2 fs-5"></i>  <span id="dirToday" class="fs-6">East</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="inner-2 text-center h-100" >
+                        <div class="in-div-2">
+                            <div> <span id="tommDay">Thursday</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-sun fs-1 my-3"></i>
+                        <h1 class="my-3">27.8oC</h1>
+                        <h5 class="my-3">Sunny</h5>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="inner-3 text-center h-100" >
+                        <div class="in-div-3">
+                            <div> <span id="afterTomm">Thursday</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-sun fs-1 my-3"></i>
+                        <h1 class="my-3">27.8oC</h1>
+                        <h5 class="my-3">Sunny</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
